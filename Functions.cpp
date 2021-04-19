@@ -18,14 +18,16 @@
 //create a vector with appropriate numbers of Smalltalk_Brit,Smalltalk_American and ST_American_DonutEnthusiest
 //objects using unique pointers.  Since we are using c++11 returning this vector by value is fine since the 
 //compiler will move the vector on return rather than recreate it (this means there is no copy penalty)
+using namespace std;
+
 std::vector<std::unique_ptr<Smalltalk>> getPeople(int numBrit,
 		int numAmerican, int numbAmericanDonutEnthusiest,
 		int numWatches) {
 	
 	//create a vector to hold SmallTalk unique pointers
-
+		vector<unique_ptr<Smalltalk>> smallTalkVector;
 		//add brits to vector
-
+		for (int i = 0;)
 		//add americans  to vector
 
 		//add american donut enthusiest  to vector
@@ -34,6 +36,7 @@ std::vector<std::unique_ptr<Smalltalk>> getPeople(int numBrit,
 		//then give the watches away to first NUM_WATCHES people in the vector
 		// when you are finished using the vector you return
 		//from this function(see Smalltalk header for hints)
-
+		while numWatches < numb
 		//return your vector
+		return smallTalkVector;
 }
