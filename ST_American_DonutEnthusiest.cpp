@@ -5,7 +5,9 @@
  *      Author: Kristian Crosby
  */
 
-#include "Smalltalk_American.h"
+#include "../includes/Smalltalk.h"
+#include "../includes/constants.h"
+#include "../includes/Smalltalk_American.h"
 
 class ST_American_DonutEnthusiest :
 	public Smalltalk_American
